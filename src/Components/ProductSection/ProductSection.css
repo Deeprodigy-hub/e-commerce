@@ -1,0 +1,33 @@
+/* src/components/ProductSection.css */
+.product-section {
+    margin: 20px 10px; /* Adjust margins to match the spacing requirements */
+  }
+  
+  .product-links h2 {
+    margin-bottom: 20px;
+    .product-links {
+        text-align: start  !important;
+      }
+  }
+  
+  .product-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-links ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .product-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+  }
+  
+  .product-image img {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

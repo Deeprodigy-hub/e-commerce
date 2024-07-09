@@ -1,0 +1,60 @@
+/* src/components/ProductCard.css */
+.custom-card {
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  height: 428px;
+  gap: 20px;
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-img {
+  padding: 20px; 
+  width: 376px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.custom-button {
+  background-color: #DBFA1C !important;
+  border: none !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+/* Additional styles for CartPage */
+.cart-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.cart-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+  

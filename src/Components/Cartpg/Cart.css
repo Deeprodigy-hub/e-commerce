@@ -1,0 +1,50 @@
+/* src/components/CartPage.css */
+.cart-item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Remove default box shadow from cards */
+  padding: 1rem;
+  border-radius: 10px;
+  border: none !important;
+}
+
+.cart-item img {
+  max-width: 100%;
+  height: auto;
+}
+.btn-remove:hover{
+  color: red !important;
+  font-weight: bold !important;
+}
+.btn-remove{
+  background-color: transparent !important;  
+  border-color: transparent !important;
+}
+.btn-mlt  {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: inherit !important;
+}
+.btn-mlt:hover,
+.btn-mlt:active {
+  font-weight: bold;
+}
+.cart-item-content {
+  padding-left: 1rem;
+}
+
+.custom-button {
+  background-color: #DBFA1C !important;
+  border: none !important;
+  color: black !important;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.cart-row{
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+
+.summary-section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow to summary section */
+  max-height: 50vh;
+  margin-top: 20px;
+}

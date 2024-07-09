@@ -1,0 +1,31 @@
+/* src/CustomNavbar.css */
+.navbar.bg-custom {
+    background-color: #DBFA1C;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .custom-navbar .navbar-collapse {
+    text-align: left;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    font-weight: 600; 
+  }
+  
+  @media (max-width: 991px) {
+    .custom-navbar .navbar-brand,
+    .custom-navbar .navbar-toggler {
+      flex-grow: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .custom-navbar .navbar-nav {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
