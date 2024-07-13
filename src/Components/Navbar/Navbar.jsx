@@ -21,7 +21,7 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link as={Link} to="/Shop">Shop</Nav.Link>
+            <Nav.Link as={Link} to="/e-commerce">Shop</Nav.Link>
             <Nav.Link href="#link1">Laptops</Nav.Link>
             <Nav.Link href="#link2">Ipads & Tablets</Nav.Link>
             <Nav.Link href="#link3">Desktops & Workstations</Nav.Link>
